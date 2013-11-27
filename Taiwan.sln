@@ -5,7 +5,7 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Upload_2ndGen_floodmaps", "
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "RasterToPolygon", "RasterToPolygon\RasterToPolygon.pyproj", "{315E750B-493B-4217-8346-C8B8B8279F2F}"
 EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "psycopg2_tutorial", "..\..\..\..\..\..\Projects\FM_Global\Taiwan\Taiwan_Development\PostgreSQL\PostgreSQL\psycopg2_tutorial\psycopg2_tutorial.pyproj", "{38E4A97C-561B-4561-BC12-0DAD68BD9642}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "psycopg2_tutorial", "psycopg2_tutorial\psycopg2_tutorial.pyproj", "{38E4A97C-561B-4561-BC12-0DAD68BD9642}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

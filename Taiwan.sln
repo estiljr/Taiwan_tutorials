@@ -7,6 +7,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "RasterToPolygon", "RasterTo
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "psycopg2_tutorial", "psycopg2_tutorial\psycopg2_tutorial.pyproj", "{38E4A97C-561B-4561-BC12-0DAD68BD9642}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Archive_model", "Archive_model\Archive_model.pyproj", "{C9823B57-476F-4D76-998B-EC24B97C3374}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{38E4A97C-561B-4561-BC12-0DAD68BD9642}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38E4A97C-561B-4561-BC12-0DAD68BD9642}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38E4A97C-561B-4561-BC12-0DAD68BD9642}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9823B57-476F-4D76-998B-EC24B97C3374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9823B57-476F-4D76-998B-EC24B97C3374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9823B57-476F-4D76-998B-EC24B97C3374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9823B57-476F-4D76-998B-EC24B97C3374}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

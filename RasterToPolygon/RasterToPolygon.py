@@ -3,6 +3,7 @@ def floodgrid_2_extent(in_grid,threshold,temp_grid,out_shp):
     import arcpy
     arcpy.CheckOutExtension("spatial")
     arcpy.env.scratchWorkspace =r"c:/temp/scratch"
+    arcpy.env.overwriteOutput = True
     
     res = False
     try:
@@ -16,7 +17,7 @@ def floodgrid_2_extent(in_grid,threshold,temp_grid,out_shp):
     
     return res
 
-in_grid = r"C:\Projects\FM_Global\Taiwan\Data\2nd_Gen_FloodMaps\08_GIS_Changhua\grid_file_Changhua\changhua_i1"
-out_shapefile = r"C:\Projects\FM_Global\Taiwan\Data\2nd_Gen_FloodMaps\08_GIS_Changhua\flood_extent\changhua_i0001.shp"
+in_grid = r"C:\Projects\FM_Global\Taiwan\Data\2nd_Gen_FloodMaps\08_GIS_Changhua\grid_file_Changhua\changhua_i100"
+out_shapefile = r"C:\Projects\FM_Global\Taiwan\Data\2nd_Gen_FloodMaps\08_GIS_Changhua\flood_extent\changhua_i0100.shp"
 temp = r"c:/temp/scratch"
-floodgrid_2_extent(in_grid, 0.001, temp, out_shapefile)
+floodgrid_2_extent(in_grid, 0.01, temp, out_shapefile)
